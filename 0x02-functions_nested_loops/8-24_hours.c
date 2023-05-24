@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * jack_bauer: Prints every minite of the day
+ * jack_bauer - Prints every minite of the day of jack bauer
  *
- * Return: Always 0.
+ * Return: no return.
  */
 void jack_bauer(void)
 {
