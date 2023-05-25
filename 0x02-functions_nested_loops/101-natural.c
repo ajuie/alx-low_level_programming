@@ -1,29 +1,25 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
- * Description: printd th sum of all the multiples of 3 and 5
- *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n, sum;
+	int i, sum;
 
 	sum = 0;
-
-	for (n = 0; n < 1024; n++)
+	for (i = 0; i < 1024; i++)
 	{
-		if ((n % 3) == 0 || (n % 5) == 0)
+		if ((i % 3) == 0 || (i % 5) == 0)
 		{
-			sum = sum + n;
+			sum += i;
 		}
 		else
 		{
 			continue;
 		}
 	}
-	printf("%d", sum);
+	printf("%d\n", sum);
 	return (0);
 }
