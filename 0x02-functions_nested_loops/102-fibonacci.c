@@ -11,7 +11,7 @@ int main(void)
 	unsigned long n1, n2, sum;
 
 	n1 = 0, n2 = 1;
-	for (i = 0; i <= 50; i++)
+	for (i = 0; i < 50; i++)
 	{
 		sum = n1 + n2;
 		printf("%lu", sum);
