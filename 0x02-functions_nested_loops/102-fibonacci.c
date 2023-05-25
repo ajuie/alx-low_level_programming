@@ -16,14 +16,17 @@ int main(void)
 		sum = n1 + n2;
 		printf("%lu", sum);
 
-		if (i != 50)
+		n1 = n2;
+		n2 = sum;
+
+		if (i == 49)
+		{
+			printf("\n");
+		}
+		else
 		{
 			printf(", ");
 		}
-		else
-			printf("\n");
-		n1 = n2;
-		n2 = sum;
 	}
 	return (0);
 }
