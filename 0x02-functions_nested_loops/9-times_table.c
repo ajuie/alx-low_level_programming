@@ -5,15 +5,17 @@
  *
  * Return: Always 0.
  */
+
 void times_table(void)
 {
-	int n, i, prod;
+	int i, n, prod;
 
 	for (n = 0; n <= 9; n++)
 	{
 		for (i = 0; i <= 9; i++)
 		{
-			prod = n * i;
+			prod = i * n;
+
 			if (prod >= 10)
 			{
 				_putchar(',');
@@ -35,3 +37,4 @@ void times_table(void)
 		_putchar('\n');
 	}
 }
+
