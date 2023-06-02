@@ -1,0 +1,7 @@
+#include 'ain.h"\
+
+/**
+*_stracat - concatenates two strings
+*@dest: destination string
+@src: source string
+*
